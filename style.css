@@ -27,11 +27,43 @@ input {
 }
 
 .slider {
-  margin-bottom: 4vh;
+  margin-bottom: 2vh;
 }
 
 #redContainer,
 #greenContainer,
 #blueContainer {
   margin-bottom: 2vh;
+}
+
+#red,
+#green,
+#blue {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+#red {
+  color: red;
+}
+
+#green {
+  color: green;
+}
+
+#blue {
+  color: blue;
+}
+
+#redRange {
+    accent-color: red;
+}
+
+#greenRange {
+    accent-color: green;
+}
+
+#blueRange {
+    accent-color: blue
+    ;
 }
