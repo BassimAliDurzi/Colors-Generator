@@ -10,30 +10,37 @@
 
 <body>
     <h1>Colors Generator</h1>
+    <nav id="navbar">
+        <ul>
+            <li><a href="rgb.html">RGB</a></li>
+            <li><a href="rgba.html">RGBA</a></li>
+            <li><a href="hex.html">HEX</a></li>
+            <li><a href="hsl.html">HSL</a></li>
+            <li><a href="hsla">HSLA</a></li>
+        </ul>
+    </nav>
+    <h2>RGB</h2>
     <div id="colorConatiner">
         <div id="color"></div>
-        <p>Value: <span id="colorValue"></span></p>
+        <p><span id="colorValue"></span></p>
     </div>
     <div class="slider">
-        <p id="red">Red</p>
         <div id="redContainer"></div>
         <input id="redRange" type="range" min="0" max="255" value="128">
-        <p>Value: <span id="redValue"></span></p>
+        <p>R: <span id="redValue"></span></p>
     </div>
     <div class="slider">
-        <p id="green">Green</p>
         <div id="greenContainer"></div>
         <input id="greenRange" type="range" min="0" max="255" value="128">
-        <p>Value: <span id="greenValue"></span></p>
+        <p>G: <span id="greenValue"></span></p>
     </div>
     <div class="slider">
-        <p id="blue">Blue</p>
         <div id="blueContainer"></div>
         <input id="blueRange" type="range" min="0" max="255" value="128">
-        <p>Value: <span id="blueValue"></span></p>
+        <p>B: <span id="blueValue"></span></p>
     </div>
 
-    <script src="main.js"></script>
+    <script src="rgb.js"></script>
 </body>
 
 </html>

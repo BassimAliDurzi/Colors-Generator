@@ -6,6 +6,43 @@ body {
   align-items: center;
 }
 
+ul {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 2vh;
+  overflow: hidden;
+  background-color: rgb(243, 151, 175);
+}
+
+li {
+  margin: 0 25px 0 25px;
+  list-style: none;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: rgb(255, 216, 70);
+  color: black;
+}
+
+h1,
+h2 {
+  margin-bottom: 3vh;
+}
+
 #color {
   width: 25vw;
   height: 6vh;
@@ -24,46 +61,25 @@ body {
 input {
   width: 25vw;
   height: 3vh;
+  margin-bottom: 1vh;
 }
 
 .slider {
-  margin-bottom: 2vh;
+  margin-bottom: 1vh;
 }
 
-#redContainer,
-#greenContainer,
-#blueContainer {
-  margin-bottom: 2vh;
-}
-
-#red,
-#green,
-#blue {
-  font-size: 22px;
-  font-weight: bold;
-}
-
-#red {
-  color: red;
-}
-
-#green {
-  color: green;
-}
-
-#blue {
-  color: blue;
+#colorConatiner {
+  margin-bottom: 7vh;
 }
 
 #redRange {
-    accent-color: red;
+  accent-color: red;
 }
 
 #greenRange {
-    accent-color: green;
+  accent-color: green;
 }
 
 #blueRange {
-    accent-color: blue
-    ;
+  accent-color: blue;
 }
