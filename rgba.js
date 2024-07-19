@@ -52,13 +52,6 @@ function blueFunc() {
 
 blueRange.oninput = blueFunc;
 
-//Color
-
-let color = document.getElementById("color");
-let colorValue = document.getElementById("colorValue");
-color.style.backgroundColor = `rgb(${redRange.value},${greenRange.value}, ${blueRange.value})`;
-colorValue.innerText = `rgb(${redRange.value}, ${greenRange.value}, ${blueRange.value})`;
-
 //alpha
 
 let alphaRange = document.getElementById("alphaRange");
@@ -69,6 +62,15 @@ alphaValue.innerText = alphaRange.value;
 function alphaFunc() {
   alphaValue.innerText = this.value;
   color.style.backgroundColor = `rgb(${redRange.value},${greenRange.value}, ${blueRange.value}, ${alphaRange.value})`;
+  colorValue.innerHTML = `rgb(${redRange.value},${greenRange.value}, ${blueRange.value}, ${alphaRange.value})`;
 }
 
 alphaRange.oninput = alphaFunc;
+
+//Color
+
+let color = document.getElementById("color");
+let colorValue = document.getElementById("colorValue");
+color.style.backgroundColor = `rgb(${redRange.value},${greenRange.value}, ${blueRange.value})`;
+colorValue.innerText = `rgb(${redRange.value}, ${greenRange.value}, ${blueRange.value})`;
+colorValue.innerHTML = `rgb(${redRange.value},${greenRange.value}, ${blueRange.value}, ${alphaRange.value})`;
