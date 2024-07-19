@@ -16,7 +16,7 @@ h2 {
 ul {
   display: flex;
   flex-direction: row;
-  margin-bottom: 2vh;
+  margin-bottom: 1vh;
   background-color: rgb(243, 151, 175);
 }
 
@@ -47,12 +47,12 @@ li a:hover {
 
 h1,
 h2 {
-  margin-bottom: 3vh;
+  margin-bottom: 2vh;
 }
 
 #color {
   width: 25vw;
-  height: 6vh;
+  height: 5vh;
 }
 
 #colorConatiner,
@@ -76,7 +76,7 @@ input {
 }
 
 #colorConatiner {
-  margin-bottom: 7vh;
+  margin-bottom: 5vh;
 }
 
 #redRange {
@@ -93,7 +93,7 @@ input {
 
 .value {
   margin-top: 0;
-  margin-bottom: 7vh;
+  margin-bottom: 3vh;
   font-size: 20px;
 }
 
@@ -101,3 +101,4 @@ input {
   font-family: 'Courier New', Courier, monospace;
   font-size: 20px;
 }
+
