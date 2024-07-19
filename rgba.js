@@ -73,4 +73,4 @@ let color = document.getElementById("color");
 let colorValue = document.getElementById("colorValue");
 color.style.backgroundColor = `rgb(${redRange.value},${greenRange.value}, ${blueRange.value})`;
 colorValue.innerText = `rgb(${redRange.value}, ${greenRange.value}, ${blueRange.value})`;
-colorValue.innerHTML = `rgb(${redRange.value},${greenRange.value}, ${blueRange.value}, ${alphaRange.value})`;
+colorValue.innerHTML = `rgb(${redRange.value}, ${greenRange.value}, ${blueRange.value}, ${alphaRange.value})`;

@@ -20,5 +20,24 @@
         </ul>
     </nav>
     <h2>HSL</h2>
-    <script src="hsl.html"></script>
+    <div id="colorConatiner">
+        <div id="color"></div>
+        <p><strong><span id="colorValue"></span></strong></p>
+    </div>
+    <div class="slider">
+        <p class="value"><strong>HUE</strong>: <span id="hueValue"></span></p>
+        <input id="hueRange" type="range" min="0" max="360" value="0">
+        <br>
+    </div>
+    <div class="slider">
+        <p class="value"><strong>Saturation</strong>: <span id="saturationValue"></span></p>
+        <input id="saturationRange" type="range" min="0" max="100" value="100">
+        <br>
+    </div>
+    <div class="slider">
+        <p class="value"><strong>Lightness</strong>: <span id="lightnessValue"></span></p>
+        <input id="lightnessRange" type="range" min="0" max="100" value="50">
+
+    </div>
+    <script src="hsl.js"></script>
 </body>
