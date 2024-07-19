@@ -1,4 +1,5 @@
 //Red
+
 let redContainer = document.getElementById("redContainer");
 let redRange = document.getElementById("redRange");
 let redValue = document.getElementById("redValue");
@@ -16,6 +17,7 @@ function redFunc() {
 redRange.oninput = redFunc;
 
 //Green
+
 let greenContainer = document.getElementById("greenContainer");
 let greenRange = document.getElementById("greenRange");
 let greenValue = document.getElementById("greenValue");
@@ -58,14 +60,15 @@ color.style.backgroundColor = `rgb(${redRange.value},${greenRange.value}, ${blue
 colorValue.innerText = `rgb(${redRange.value}, ${greenRange.value}, ${blueRange.value})`;
 
 //alpha
+
 let alphaRange = document.getElementById("alphaRange");
 let alphaValue = document.getElementById("alphaValue");
 
 alphaValue.innerText = alphaRange.value;
 
 function alphaFunc() {
-    alphaValue.innerText = this.value;
-    color.style.backgroundColor = `rgb(${redRange.value},${greenRange.value}, ${blueRange.value}, ${alphaRange.value})`;
+  alphaValue.innerText = this.value;
+  color.style.backgroundColor = `rgb(${redRange.value},${greenRange.value}, ${blueRange.value}, ${alphaRange.value})`;
 }
 
 alphaRange.oninput = alphaFunc;
